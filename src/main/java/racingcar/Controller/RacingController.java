@@ -17,7 +17,7 @@ public class RacingController {
 
             RacingGame game = new RacingGame(names);
 
-            System.out.println("\n실행 결과");
+            System.out.println("\nprocess result ");
             for (int i = 0; i < attempts; i++) {
                 game.playRound();
                 view.printRoundResult(game.getCars());
